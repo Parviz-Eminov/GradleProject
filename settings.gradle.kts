@@ -1,5 +1,7 @@
-include 'db'
-include 'service'
-include 'api'
+rootProject.name = "App"
+
+include("api")
+include ("db")
+include ("service")
 
 
